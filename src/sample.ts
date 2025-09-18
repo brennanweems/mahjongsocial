@@ -1,17 +1,17 @@
 const author = {
-    name: `Angela`,
-    nickname: `angie`,
-    tiktok: `https://www.tiktok.com/@codetonero`,
-    ig: `https://www.instagram.com/codetonero/`,
-    x: `https://x.com/codetonero`,
-    email: 'mailto:anthonylannn@gmail.com'
+    name: `Mahjong Social Dallas`,
+    nickname: `MSD`,
+    tiktok: `https://www.tiktok.com/@mahjongsocialdallas`,
+    ig: `https://www.instagram.com/mahjongsocialdallas/`,
+    x: `https://x.com/mahjongsocial`,
+    email: 'mailto:info@mahjongsocialdallas.com'
 
 }
 
 
 const buy = {
-    title: `See on Github`,
-    link: `https://github.com/anthonylan/angie`
+    title: `Join Our Next Event`,
+    link: `#events`
 }
 
 
