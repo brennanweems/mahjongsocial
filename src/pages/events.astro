@@ -1,0 +1,57 @@
+---
+import '../styles/global.css'
+import Layout from "../layouts/Layout.astro"
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import EventsList from '../components/EventsList.astro'
+---
+
+<Layout title="Upcoming Events - Mahjong Social Dallas">
+  <Header />
+  
+  <main>
+    <!-- Page Header -->
+    <section class="py-16 px-5">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-5xl font-bold mb-6">Upcoming Mahjong Events</h1>
+        <p class="text-xl text-gray-700 max-w-2xl mx-auto">
+          Ready to mahj with the most amazing group of ladies in Dallas? Browse our upcoming events and find your perfect mahjong experience!
+        </p>
+      </div>
+    </section>
+
+    <!-- Events List -->
+    <EventsList />
+    
+    <!-- FAQ Section -->
+    <section class="py-20 px-5">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+        
+        <div class="space-y-8">
+          <div class="bg-white p-6 rounded-lg border-2 border-black">
+            <h3 class="text-xl font-semibold mb-3">What if I've never played mahjong before?</h3>
+            <p class="text-gray-700">No problem at all! Our beginner workshops are perfect for complete newcomers. We'll teach you everything from basic rules to strategy. Plus, every event is welcoming to new players!</p>
+          </div>
+          
+          <div class="bg-white p-6 rounded-lg border-2 border-black">
+            <h3 class="text-xl font-semibold mb-3">What should I bring?</h3>
+            <p class="text-gray-700">Just yourself and a positive attitude! We provide all mahjong tiles, cards, and materials. Feel free to bring a drink if it's a BYOB event (noted in the event details).</p>
+          </div>
+          
+          <div class="bg-white p-6 rounded-lg border-2 border-black">
+            <h3 class="text-xl font-semibold mb-3">How do I cancel or reschedule?</h3>
+            <p class="text-gray-700">Life happens! Contact us at least 24 hours before the event for a full refund or to reschedule. We're flexible and understanding.</p>
+          </div>
+          
+          <div class="bg-white p-6 rounded-lg border-2 border-black">
+            <h3 class="text-xl font-semibold mb-3">Can I bring a friend?</h3>
+            <p class="text-gray-700">Absolutely! Friends make everything more fun. Just make sure to register both of you separately so we have an accurate headcount.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <Footer />
+</Layout>
