@@ -11,7 +11,7 @@ const author = {
 
 const buy = {
     title: `Join Our Next Event`,
-    link: `#events`
+    link: `/events`
 }
 
 
